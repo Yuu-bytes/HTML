@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+    Michael Trage
+-->
+<html>
+    <head>
+        <title>Michael Trage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="n1" method="POST">
+            <table>
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" name="NOME"></td>
+            </tr>
+            <tr>
+                <td>Descrição</td>
+                <td><textarea name="descricao" cols="50" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Valor</td>
+                <td><input type="text" name="valor" size="3"></td>
+            </tr>
+            <tr>
+                <td>Categoria</td>
+                <td>
+            <select name="categoria">
+                <option value="1">Mouse</option>
+                <option value="2">Teclado</option>
+                <option value="3">Monitor</option>
+                <option value="4">Gabinete</option>
+                <option value="5">HD</option>
+            </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Em estoque</td>
+                <td>
+                    <input type="radio" name="estoque" value="sim">
+                    Sim
+                    <input type="radio" name="estoque" value="nao">
+                    Não
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="inativo">Produto Inativo?</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+            
+            </table>
+        </form>
+    </body>
+</html>

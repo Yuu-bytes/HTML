@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <table width="700">
+            <tr>
+                    <td>Nome</td>
+                    <td><input type="text" size="40" value="Alexandre Knob" /></td>
+                    <td>Enderereço</td>
+                    <td><input type="text" size="40" value="Alexandre Knob" /></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+            <tr>
+                    <td>data</td>
+                    <td><input type="text" size="40" value="Alexandre Knob" /></td>
+                    <td></td>
+                    <td></td>
+                    <td>telefone</td>
+                    <td><input type="text" size="40" value="Alexandre Knob" /></td>
+            </tr>
+        </table>
+        
+        <form name="frm" method="POST" autocomplete="on">
+            <table>
+                <tr>
+                    <td>Linguagens de Programação</td>
+                    <td>
+                        <select name="teste" multiple size="6" >
+                            <option value="1">Java</option>
+                            <option value="1">JavaScript</option>
+                            <option value="1">PHP</option>
+                            <option value="1">C#</option>
+                            <option value="1">C++</option>
+                            <option value="1">Fortram</option>
+                        </select>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Linguagens de Programação</td>
+                    <td>
+                        <input list="ling" name="ling" size="25">
+                        <datalist id="ling"  >
+                            <option value="PHP">
+                            <option value="C++">
+                            <option value="Java">
+                            <option value="JavaScript">
+                            <option value="PHP">
+                            <option value="Fortram">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nome com conteúdo</td>
+                    <td><input type="text" size="40" value="Alexandre Knob" /></td>
+                </tr>
+                <tr>
+                    <td>Campo com PlaceHolder</td>
+                    <td><input type="text" size="40" placeholder="Digite o seu nome" /></td>
+                </tr>
+                <tr>
+                    <td>Campo somente leitura</td>
+                    <td><input type="text" size="40" readonly value="Você não pode modificar" /></td>
+                </tr>
+                <tr>
+                    <td>Tamanho Máximo</td>
+                    <td><input type="text" size="40" maxlength="10" autofocus="" /></td>
+                </tr>
+                <tr>
+                    <td>Mínimo e Máximo</td>
+                    <td><input type="number" size="40" min="5" max="25" /></td>
+                </tr>
+                <tr>
+                    <td>Nome Obrigatório</td>
+                    <td><input type="text" size="40" required="" /></td>
+                </tr>
+                <tr>
+                    <td>Entre com a Senha</td>
+                    <td><input type="password" size="20" required="" /></td>
+                </tr>
+                <tr>
+                    <td>Campo desabilitado</td>
+                    <td><input type="text" disabled size="30" value="você não modificar"  /></td>
+                </tr>
+                <tr>
+                    <td>Campo Oculto</td>
+                    <td><input type="hidden" value="5.12" name="valordolar"  /></td>
+                </tr>
+                <tr>
+                    <td>Campo Formatado (CPF)</td>
+                    <td><input type="text" pattern="[A-Za-z]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" 
+                               placeholder="Ex: 654.456.567-98"      /></td>
+                </tr>
+                <tr>
+                    <td>Data</td>
+                    <td><input type="date"/></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email"/></td>
+                </tr>
+                
+            </table> 
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <table>
+                    <tr>
+                        <td>nome</td>
+                        <td><input type="text" name="nome" autocomplete="on"></td>
+                    </tr>
+                    <tr>
+                        <td>Endereço</td>
+                        <td><input type="text" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone</td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Gravar" />
+        </form>
+        
+
+    </body>
+</html>

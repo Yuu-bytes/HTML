@@ -1,0 +1,27 @@
+h1 {
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    width: 400px;
+}
+
+p {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+img {
+    border: 4px red dashed;
+}
+
+.meuparagrafo {
+    padding: 5px;
+    background-color: #c1c153;
+    color: white;
+    border: 2px blue dotted;
+    background-image: url("https://st2.depositphotos.com/3759967/5583/i/950/depositphotos_55839385-stock-photo-seamless-continuous-background-textile-pattern.jpg");
+    height: 200px;
+    background-size: 120px;
+}

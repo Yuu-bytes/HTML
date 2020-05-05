@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Michael Trage</title>
+</head>
+<body>
+	<form name="frm" method="POST">
+	<fieldset>
+    	<legend>Dados Pessoais</legend>
+        <table>
+        <tr>
+        	<td>E-mail</td>
+            <td>
+            	<input type="email" />
+            </td>
+        </tr>
+        <tr>
+        	<td>Nome</td>
+            <td><input type="text" name="nome" size="40" value="Michael Trage" required="" autofocus=""/>
+        </tr>
+        <tr>
+        	<td>Senha</td>
+            <td><input type="password" name="senha" size="10" placeholder="Digite sua senha" required="" maxlength="16"/>
+        </tr>
+        <tr>
+        	<td>Estado</td>
+            <td>
+            <input list="estado" name="estado" size="1" autocomplete="on"/>
+            <datalist id="estado">
+                <option value="RS"></option>
+                <option value="MG"></option>
+                <option value="SP"></option>
+                <option value="RJ"></option>
+            </datalist>
+            </td>
+        </tr>
+        <tr>
+        	<td>CPF</td>
+            <td>
+            	<input type="text" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="Ex: 126.456.426-41"/>
+            </td>
+        </tr>
+        </table>
+    </fieldset>
+	<fieldset>
+    <legend>Cadastro de Produto</legend>
+    <table>
+    	<tr>
+        	<td>Nome</td>
+            <td>
+            	<input type="text"/>
+            </td>
+        </tr>
+        <tr> 
+        	<td>Categorias</td>
+            <td>
+            	<select name="categorias" multiple>
+                	<option value="1">Eletronico</option>
+                	<option value="2">Novo</option>
+                	<option value="3">Usado</option>
+                	<option value="4">Mecânico</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+        	<td>Quantidade</td>
+            <td>
+            	<input type="number" min="0" max="1000"/>
+            </td>
+        </tr>
+        <tr>
+        	<td>Preço</td>
+            <td><input type="text" size="2" value="R$ "/></td>
+        </tr>
+        <tr>
+        	<td>Fornecedora</td>
+            <td><input type="text" readonly value="Teccom"/></td>
+        </tr><tr>
+        	<td>ID Produto</td>
+            <td><input type="text" disabled size="2" value="0003"/></td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td><input type="date"/></td>
+        </tr>
+        <tr>
+        	<td></td>
+            <td><input type="hidden" value="Você não deveria estar vendo isso" name="oculto"/></td>
+        </tr>
+		<tr>
+        	<td></td>
+            <td><input type="submit" value="Enviar"/></td>
+            </tr>
+    </table>
+    </fieldset>
+    </form>
+</body>
+</html>
