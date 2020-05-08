@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: URL(https://picsum.photos/id/10/2300/1267.jpg);
+}
+
+#geral {
+    margin: 0 auto;
+    width: 900px;
+    height: 1000px;
+    background-color: lightgray;
+}
+
+#topo {
+    padding: 5px;
+    width: 900px;
+    height: 150px;
+    color: white;
+    background-color: red;
+}
+
+#menu {
+    width: 910px;
+    height: 40px;
+    background-color: blue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#imagem {
+    padding: 5px;
+    width: 900px;
+    color: white;
+    height: 200px;
+    background-color: gray;
+    background-image: URL(https://picsum.photos/910/210/?random);
+    background-position: center;
+}
+
+#conteudo {
+    padding: 5px;
+    color: black;
+    width: 900px;
+    background-color: lightblue;
+    height: 600px;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#menu a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#menu a:hover{
+    background-color: gray;
+}
