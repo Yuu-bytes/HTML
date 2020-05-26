@@ -3,22 +3,44 @@ body {
 }
 
 #menu {
-    margin-left: 500px;
+    margin-left: 480px;
+    margin-top: -30px;
 }
 
-#menu a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    text-align: center;
+#menu ul {
+    padding: 0px;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
     width: 80px;
     height: 30px;
-    margin: 0px;
-    background-color: rgb(48, 48, 48);
     padding: 5px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    line-height: 30px;
+    margin: 2px;
 }
 
-#menu a:hover {
+#menu ul ul {
+    display: none;
+}
+
+#menu ul ul li {
+    margin: -4px;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
     text-decoration: underline;
 }
 
@@ -26,4 +48,24 @@ body {
     width: 1000px;
     background-color: rgb(29, 29, 29);
     margin: -10px 125px;
+}
+
+#cabecalho {
+    border-bottom: 1px solid white;
+}
+
+#cabecalho h1 {
+    font: 26pt normal Arial, sans-serif;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+    text-align: center;
+}
+
+#cabecalho h2 {
+    font: 20pt normal Arial, sans-serif;
+    padding: 0px;
+    margin-top: -15px;
+    width: 500px;
+    text-align: center;
 }
