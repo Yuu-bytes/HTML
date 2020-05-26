@@ -2,6 +2,14 @@ body {
     color: white;
 }
 
+#interface {
+    width: 1000px;
+    background-color: rgb(29, 29, 29);
+    margin: -10px 125px;
+}
+
+/* Aqui começa o menu do site */
+
 #menu {
     margin-left: 480px;
     margin-top: -30px;
@@ -44,11 +52,9 @@ body {
     text-decoration: underline;
 }
 
-#interface {
-    width: 1000px;
-    background-color: rgb(29, 29, 29);
-    margin: -10px 125px;
-}
+/* Aqui termina o menu do site */
+
+/* Aqui começa o estilo do cabecalho da página */
 
 #cabecalho {
     border-bottom: 1px solid white;
@@ -69,3 +75,5 @@ body {
     width: 500px;
     text-align: center;
 }
+
+/* Aqui termina o estilo do cabecalho da página */
