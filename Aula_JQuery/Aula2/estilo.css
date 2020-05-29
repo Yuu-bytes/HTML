@@ -4,3 +4,10 @@
     padding: 10px;
     border: medium black solid;
 }
+
+.meuparagrafo2 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: medium green dashed;
+}

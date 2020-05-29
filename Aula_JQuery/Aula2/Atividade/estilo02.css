@@ -1,0 +1,16 @@
+h1 {
+    background-color: yellow;
+    color: green;
+    border: 5px salmon dotted;
+}
+
+p {
+    background-color: aqua;
+    color: green;
+    border: 5px salmon dotted;
+}
+
+img {
+    border: 5px salmon dotted;
+    box-shadow: -2px -2px 3px blue;
+}

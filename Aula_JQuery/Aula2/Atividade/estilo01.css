@@ -1,0 +1,16 @@
+h1 {
+    background-color: blue;
+    color: white;
+    border: 10px brown dashed;
+}
+
+p {
+    background-color: red;
+    color: white;
+    border: 10px brown dashed;
+}
+
+img {
+    border: 10px brown dashed;
+    box-shadow: 2px 2px 3px black;
+}
